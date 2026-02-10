@@ -53,12 +53,24 @@ body {
   background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
   color: white;
 }
+.btn:hover {
+  color: white;
+  background: linear-gradient(265.23deg, black 6.79%, grey 97.2%);
+  border: 1px solid rgb(196, 195, 195);
+}
 .btn2 {
   border: 1px solid rgb(196, 195, 195);
   width: 150px;
   padding: 15px 15px;
   color: white;
   background-color: black;
+  border-radius: 82.83px;
+}
+.btn2:hover {
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  color: white;
+  width: 150px;
+  padding: 15px 15px;
   border-radius: 82.83px;
 }
 .big-box {
@@ -225,8 +237,18 @@ body {
   width: 600px;
   height: 200px;
   border-radius: 30px;
-  background-image: url("./d0c6e8c4ca6536e86b9c67bb1b1de17fdf9ef1ca.jpg");
+  background-image: url("./6a283a8e1dfaa3ea4a72dd3085916cd784d38051.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.minihii {
+  width: 600px;
+  height: 200px;
+  border-radius: 30px;
+  background-image: url("./759cd17ede5669cf516d38b286853e19eafb8443.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .box17 {
@@ -235,12 +257,13 @@ body {
   gap: 30px;
   color: rgb(206, 203, 203);
 }
-.minix {
-  width: 600px;
+.minih {
+  width: 390px;
   height: 200px;
   border-radius: 30px;
   background-image: url("./459aea58383a8a86ae93dd531a57410d765e6980.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .blaqq {
@@ -291,4 +314,22 @@ body {
   display: flex;
   gap: 810px;
   justify-content: center;
+}
+.minihe {
+  width: 390px;
+  height: 200px;
+  border-radius: 30px;
+  background-image: url("./759cd17ede5669cf516d38b286853e19eafb8443.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.minihee {
+  width: 390px;
+  height: 200px;
+  border-radius: 30px;
+  background-image: url("./69406b8b6ca29b3511df811434a8c8f626e974d5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
