@@ -288,6 +288,7 @@ body {
 .mini-it {
   display: flex;
   flex-wrap: nowrap;
+  text-align: center;
   color: white;
   align-items: center;
 }
